@@ -1,0 +1,32 @@
+{
+    "name":                                             "najaram/moviefetcher",
+    "description":                                      "Simple Library for fetching movie information",
+    "license":                                          "MIT",
+    "type":                                             "library",
+    "autoload": {
+        "psr-4": {
+            "Najaram\\MovieFetcher\\":                      "src/Najaram/MovieFetcher"
+        }
+    },
+    "require": {
+        "symfony/css-selector":                         "~2.7",
+        "symfony/dom-crawler":                          "~2.7",
+        "guzzlehttp/guzzle":                            "~6.0",
+        "league/uri":                                   "~4.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Najaram\\MovieFetcher\\Tests\\":               "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit":                              "@stable",
+        "squizlabs/php_codesniffer":                    "~2.3"
+    },
+    "minimum-stability":                                "dev",
+    "prefer-stable":                                    true,
+    "config": {
+        "bin-dir":                                      "bin",
+        "prefer-dist":                                  true
+    }
+}

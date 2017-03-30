@@ -1,0 +1,8 @@
+/vendor/
+/.idea/
+/bin/
+/css/
+/js/
+/build/
+/composer.lock
+/composer.phar
