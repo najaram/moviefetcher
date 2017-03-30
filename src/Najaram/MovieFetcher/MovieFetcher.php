@@ -57,7 +57,7 @@ class MovieFetcher implements MovieFetcherInterface
     echo '<pre>';
     var_dump($response);
     echo '</pre>';
-    if ($response->statusCode() == 200) {
+    if ($response->getStatusCode() == 200) {
 
       $crawler = $this->crawler ?: new Crawler();
       $crawler->clear();
